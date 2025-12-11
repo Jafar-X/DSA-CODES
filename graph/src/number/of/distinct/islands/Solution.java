@@ -6,15 +6,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 // User function Template for Java
-class Pair {
-    int x;
-    int y;
-
-    public Pair(int _x, int _y) {
-        x = _x;
-        y = _y;
-    }
-}
 class Solution {
     int rows = 0;
     int cols = 0;
