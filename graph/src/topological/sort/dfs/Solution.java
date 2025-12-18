@@ -45,14 +45,12 @@ class Solution {
             adj.add(new ArrayList<>());
         }
 
-        for(int i = 0; i < edges.length; i++) {
-            int u = edges[i][0];
-            int v = edges[i][1];
+        for (int[] edge : edges) {
+            int u = edge[0];
+            int v = edge[1];
 
             adj.get(u).add(v);
         }
         return adj;
     }
-
-
 }
