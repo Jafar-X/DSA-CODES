@@ -1,4 +1,4 @@
-package directed.graph.cycle;
+package directed.graph.cycle.dfs;
 
 import java.util.ArrayList;
 import java.util.List;
